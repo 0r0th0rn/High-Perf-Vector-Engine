@@ -1,0 +1,45 @@
+# Executabile și fișiere compilate
+*.exe
+*.obj
+*.o
+*.out
+*.dll
+*.lib
+*.so
+*.app
+*.ilk
+*.pdb
+*.idb
+
+# Fișiere specifice Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.userosscache
+
+# Foldere de build generate de Visual Studio
+x64/
+x86/
+Debug/
+Release/
+out/
+bin/
+
+# Fișiere specifice CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+build/
+
+# Alte fișiere temporare sau de sistem
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
